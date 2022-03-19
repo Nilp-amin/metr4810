@@ -3,7 +3,7 @@
 from machine import Pin, ADC
 import time
 
-LDR_THRESHOLD = 8000
+LDR_THRESHOLD = 2000 
 
 green_led = Pin(25, Pin.OUT)
 laser = Pin(0, Pin.OUT)
